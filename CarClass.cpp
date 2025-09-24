@@ -8,6 +8,14 @@ class Car {
 
 	public:
 
+		//default constructor
+
+		Car()
+		{
+			brand = "";
+			year = 2025;
+		}
+
 		Car(string brand, int year)
 		{
 			this->brand = brand;
